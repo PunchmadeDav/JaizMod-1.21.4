@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "minecraft:copper_ingot",
+    "R": "minecraft:stick",
+    "X": "jaizmod:sniffer_tuft"
+  },
+  "pattern": [
+    "X",
+    "G",
+    "R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:brush"
+  }
+}

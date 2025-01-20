@@ -1,0 +1,87 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jaizmod:block/undergrowth"
+      },
+      {
+        "model": "jaizmod:block/undergrowth",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/undergrowth",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/undergrowth",
+        "y": 270
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2"
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 270
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2"
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 270
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2"
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 270
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2"
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/undergrowth_2",
+        "y": 270
+      },
+      {
+        "model": "jaizmod:block/undergrowth_3"
+      },
+      {
+        "model": "jaizmod:block/undergrowth_4"
+      }
+    ]
+  }
+}

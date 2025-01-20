@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "jaizmod:sniffer_wool",
+    "R": "#minecraft:planks"
+  },
+  "pattern": [
+    "GGG",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:green_bed"
+  }
+}

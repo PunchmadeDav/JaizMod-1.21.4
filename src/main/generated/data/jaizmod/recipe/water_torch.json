@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "X": "minecraft:amethyst_shard",
+    "Y": "minecraft:glow_ink_sac"
+  },
+  "pattern": [
+    "Y",
+    "X"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:water_torch"
+  }
+}

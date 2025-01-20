@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "minecraft:brick",
+    "S": "minecraft:terracotta"
+  },
+  "pattern": [
+    "RS",
+    "SR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:terracotta_bricks"
+  }
+}

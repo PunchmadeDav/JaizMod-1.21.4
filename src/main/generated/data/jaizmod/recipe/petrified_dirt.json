@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "minecraft:dirt",
+    "S": "minecraft:resin_clump"
+  },
+  "pattern": [
+    "RS",
+    "SR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:petrified_dirt"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:copper_ingot",
+    "X": "minecraft:stick",
+    "Y": "jaizmod:battered_axe_remnant"
+  },
+  "pattern": [
+    "RYR",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:battered_axe"
+  }
+}

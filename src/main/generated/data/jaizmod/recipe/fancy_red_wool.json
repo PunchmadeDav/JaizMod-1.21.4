@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "minecraft:red_wool",
+    "S": "jaizmod:silk"
+  },
+  "pattern": [
+    "RS",
+    "SR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:fancy_red_wool"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "jaizmod:mahogany_boat",
+    "minecraft:chest"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:mahogany_chest_boat"
+  }
+}

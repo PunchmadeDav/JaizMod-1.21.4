@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "jaizmod:mahogany_wood"
+  ],
+  "result": {
+    "count": 4,
+    "id": "jaizmod:mahogany_planks"
+  }
+}

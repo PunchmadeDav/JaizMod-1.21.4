@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "sniffer_meat",
+  "ingredient": "jaizmod:sniffer_meat",
+  "result": {
+    "id": "jaizmod:cooked_sniffer_meat"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "jaizmod:sniffer_tuft",
+    "minecraft:book",
+    "minecraft:ink_sac"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:writable_book"
+  }
+}

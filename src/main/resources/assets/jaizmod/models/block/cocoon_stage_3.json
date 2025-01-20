@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "jaizmod:block/cocoon_stage_3",
+		"particle": "jaizmod:block/cocoon_stage_3"
+	},
+	"elements": [
+		{
+			"from": [5, 0, 5],
+			"to": [11, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 5]},
+			"faces": {
+				"north": {"uv": [3, 0, 6, 4], "texture": "#1"},
+				"east": {"uv": [0, 4, 3, 8], "texture": "#1"},
+				"south": {"uv": [3, 4, 6, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 3, 4], "texture": "#1"},
+				"up": {"uv": [9, 0, 6, 3], "texture": "#1"},
+				"down": {"uv": [9, 6, 6, 3], "texture": "#1"}
+			}
+		}
+	]
+}

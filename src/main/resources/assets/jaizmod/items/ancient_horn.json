@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "jaizmod:item/ancient_horn"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "jaizmod:item/tooting_ancient_horn"
+    },
+    "property": "minecraft:using_item"
+  }
+}

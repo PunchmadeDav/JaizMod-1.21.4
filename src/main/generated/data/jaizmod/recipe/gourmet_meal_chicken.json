@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "jaizmod:rare_spices",
+    "minecraft:beetroot",
+    "minecraft:cooked_chicken",
+    "minecraft:carrot"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:gourmet_meal"
+  }
+}

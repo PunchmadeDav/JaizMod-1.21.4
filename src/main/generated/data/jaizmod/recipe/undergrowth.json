@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "#minecraft:leaves"
+  },
+  "pattern": [
+    "RR"
+  ],
+  "result": {
+    "count": 3,
+    "id": "jaizmod:undergrowth"
+  }
+}

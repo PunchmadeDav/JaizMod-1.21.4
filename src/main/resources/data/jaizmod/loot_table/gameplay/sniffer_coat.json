@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jaizmod:sniffer_tuft",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jaizmod:sniffer_wool",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "jaizmod:gameplay/sniffer_coat"
+}

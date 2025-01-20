@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jaizmod:block/ancient_sprout",
+    "layer1": "jaizmod:block/ancient_sprout_emissive"
+  }
+}

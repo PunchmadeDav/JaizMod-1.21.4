@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "jaizmod:rotten_planks"
+  },
+  "pattern": [
+    "R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:rotten_button"
+  }
+}

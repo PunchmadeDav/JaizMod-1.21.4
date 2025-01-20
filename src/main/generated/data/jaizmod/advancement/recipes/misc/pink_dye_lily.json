@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_callalily_pink": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:callalily_pink"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:pink_dye_lily"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_callalily_pink"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:pink_dye_lily"
+    ]
+  }
+}

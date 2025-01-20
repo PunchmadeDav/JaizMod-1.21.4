@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "jaizmod:rotten_planks"
+  },
+  "pattern": [
+    "R R",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:rotten_boat"
+  }
+}

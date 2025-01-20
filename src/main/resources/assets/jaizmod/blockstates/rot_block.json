@@ -1,0 +1,39 @@
+{
+  "variants": {
+    "growing=false": [
+      {
+        "model": "jaizmod:block/rot_block"
+      },
+      {
+        "model": "jaizmod:block/rot_block",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/rot_block",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/rot_block",
+        "y": 270
+      }
+    ],
+    "growing=true":
+    [
+      {
+        "model": "jaizmod:block/rot_block_growing"
+      },
+      {
+        "model": "jaizmod:block/rot_block_growing",
+        "y": 90
+      },
+      {
+        "model": "jaizmod:block/rot_block_growing",
+        "y": 180
+      },
+      {
+        "model": "jaizmod:block/rot_block_growing",
+        "y": 270
+      }
+    ]
+  }
+}

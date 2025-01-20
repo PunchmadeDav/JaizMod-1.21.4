@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "jaizmod:wedge_obsidian_shard",
+    "R": "jaizmod:sharp_obsidian_shard",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "R",
+    "C",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:sharp_wedge_obsidian_sword"
+  }
+}

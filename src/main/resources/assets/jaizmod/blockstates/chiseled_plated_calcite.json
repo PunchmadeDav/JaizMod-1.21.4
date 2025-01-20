@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "jaizmod:block/chiseled_plated_calcite_block",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "jaizmod:block/chiseled_plated_calcite_block",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "jaizmod:block/chiseled_plated_calcite_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "jaizmod:block/chiseled_plated_calcite_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "jaizmod:block/chiseled_plated_calcite_block"
+    },
+    "facing=west": {
+      "model": "jaizmod:block/chiseled_plated_calcite_block",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

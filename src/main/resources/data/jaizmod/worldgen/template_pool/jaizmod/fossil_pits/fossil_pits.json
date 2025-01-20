@@ -1,0 +1,124 @@
+{
+	"name": "jaizmod:jaizmod/fossil_pits/fossil_pits",
+	"fallback": "minecraft:empty",
+	"elements": [{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_01",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_02",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_03",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_04",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_05",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_06",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_07",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_08",
+			"processors": "minecraft:empty",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_09",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_10",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_11",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_12",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	},{
+		"weight": 10,
+		"element": {
+			"location": "jaizmod:jaizmod/fossil_pits/fossil_pit_13",
+			"processors": "jaizmod:fossil_pit_diamonds",
+			"projection": "rigid",
+			"element_type": "minecraft:single_pool_element",
+			"override_liquid_settings": "ignore_waterlogging"
+		}
+	}
+
+]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "minecraft:flint",
+    "R": "minecraft:stick",
+    "X": "jaizmod:sniffer_tuft"
+  },
+  "pattern": [
+    "R",
+    "G",
+    "X"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:arrow"
+  }
+}

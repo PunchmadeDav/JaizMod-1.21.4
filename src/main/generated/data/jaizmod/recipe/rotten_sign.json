@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "jaizmod:rotten_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    " X "
+  ],
+  "result": {
+    "count": 3,
+    "id": "jaizmod:rotten_sign"
+  }
+}

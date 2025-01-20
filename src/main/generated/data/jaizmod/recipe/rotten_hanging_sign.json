@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "jaizmod:stripped_rotten_log",
+    "X": "minecraft:chain"
+  },
+  "pattern": [
+    "X X",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "count": 6,
+    "id": "jaizmod:rotten_hanging_sign"
+  }
+}

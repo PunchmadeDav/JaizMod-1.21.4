@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jaizmod:mimic_pot"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "jaizmod:entities/mason_mouth"
+}

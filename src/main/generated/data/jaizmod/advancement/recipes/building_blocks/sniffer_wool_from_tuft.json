@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sniffer_tuft": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:sniffer_tuft"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:sniffer_wool_from_tuft"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sniffer_tuft"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:sniffer_wool_from_tuft"
+    ]
+  }
+}

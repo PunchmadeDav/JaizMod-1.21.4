@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": "jaizmod:sniffer_wool",
+    "R": "minecraft:stick"
+  },
+  "pattern": [
+    "GGG",
+    "GGG",
+    " R "
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:green_banner"
+  }
+}

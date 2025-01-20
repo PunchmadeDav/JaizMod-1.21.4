@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "jaizmod:guano"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:guano_block"
+  }
+}

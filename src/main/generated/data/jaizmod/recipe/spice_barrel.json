@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "jaizmod:rare_spices",
+    "X": "minecraft:barrel"
+  },
+  "pattern": [
+    "RRR",
+    "RXR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:spice_barrel"
+  }
+}

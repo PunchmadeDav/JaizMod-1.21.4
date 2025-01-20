@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "jaizmod:mahogany_planks"
+  },
+  "pattern": [
+    "R R",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:mahogany_boat"
+  }
+}

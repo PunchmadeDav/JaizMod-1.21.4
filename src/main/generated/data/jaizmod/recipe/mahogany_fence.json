@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "jaizmod:mahogany_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "RXR",
+    "RXR"
+  ],
+  "result": {
+    "count": 3,
+    "id": "jaizmod:mahogany_fence"
+  }
+}

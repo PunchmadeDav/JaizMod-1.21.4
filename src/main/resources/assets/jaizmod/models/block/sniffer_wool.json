@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "jaizmod:block/sniffer_wool_base",
+    "side": "jaizmod:block/sniffer_wool_side",
+    "top": "jaizmod:block/sniffer_wool_top"
+  }
+}

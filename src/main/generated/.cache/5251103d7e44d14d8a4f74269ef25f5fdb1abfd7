@@ -1,0 +1,27 @@
+// 1.21.4	-999999999-01-01T00:00:00	JaizMod/Tags for minecraft:block
+8996c43856cf8ff18263f872823632653106cdfd data/minecraft/tags/block/animals_spawnable_on.json
+33fe42c17642e71073cf119f7f1dcaefdc6402ab data/minecraft/tags/block/bee_attractive.json
+d428dfdffc687de441350d7a1218075187783feb data/minecraft/tags/block/dirt.json
+c51642706a93ff5f7642d069d8a9a3e2057c96c3 data/minecraft/tags/block/fence_gates.json
+94cd60f59b1286d0ea9c3ba9383e0f735ece94bc data/minecraft/tags/block/fences.json
+030e852604d55bc74bebfda15dc2df242f7a28af data/minecraft/tags/block/leaves.json
+40e03ca89db6ee2f631745aa4f61b2e8a4d9c16e data/minecraft/tags/block/logs_that_burn.json
+196e8d1e9372eda13b5fd9a5a6204bd5e0d2e5d4 data/minecraft/tags/block/mineable/axe.json
+030e852604d55bc74bebfda15dc2df242f7a28af data/minecraft/tags/block/mineable/hoe.json
+a5f5003574472b1f26a5e16851d6ec7915c77261 data/minecraft/tags/block/mineable/pickaxe.json
+108754b548caec1be6f02e2822fa1fd28e75dc88 data/minecraft/tags/block/mineable/shovel.json
+1a7f298ad6adadbc364926d810b1beea8682a184 data/minecraft/tags/block/mushroom_grow_block.json
+d0c6eac5c3e424fabcc9a21f42e7dc29811002bd data/minecraft/tags/block/planks.json
+9ef1fbc3f3fdda2ed88778a3777700f1603984b6 data/minecraft/tags/block/replaceable.json
+6a6f08a6ed6f631554c0a7012ceebaae71566419 data/minecraft/tags/block/replaceable_by_trees.json
+f87280be37bdf3aac107f47eeeb7f74354ab0f87 data/minecraft/tags/block/saplings.json
+d1f33813e5275b8926e4243157a68d98086853b6 data/minecraft/tags/block/small_flowers.json
+d590e5d3c0e6aaa641c4f1f98f54585b5520ffea data/minecraft/tags/block/walls.json
+deafd367674d9a9c949ab637b288fc75663d2f44 data/minecraft/tags/block/wooden_buttons.json
+57844522a0accacf14148cf61010414a2045805d data/minecraft/tags/block/wooden_doors.json
+94cd60f59b1286d0ea9c3ba9383e0f735ece94bc data/minecraft/tags/block/wooden_fences.json
+27584bfc0041243ee571a3de490e692965899965 data/minecraft/tags/block/wooden_pressure_plates.json
+29bbb428e7120ffda94e9f54ff1c493b025fbd08 data/minecraft/tags/block/wooden_slabs.json
+03d8977bb67556bd3ae4226e5a19fb1bdfee1924 data/minecraft/tags/block/wooden_stairs.json
+f7c1e5c94aa506bc37db3ed7b1a29c7b06c10ed6 data/minecraft/tags/block/wool.json
+78adf9f7c03a3978d26af991a7b966008d5826bd data/minecraft/tags/block/wool_carpets.json

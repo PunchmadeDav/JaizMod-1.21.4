@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross_emissive",
+  "textures": {
+    "cross": "jaizmod:block/ancient_sprout",
+    "cross_emissive": "jaizmod:block/ancient_sprout_emissive"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "jaizmod:sharp_obsidian_shard",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "R",
+    "R",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jaizmod:sharp_obsidian_sword"
+  }
+}
