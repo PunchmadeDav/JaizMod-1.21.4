@@ -71,6 +71,13 @@ public class ModFeaturePlacer {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.FOREST, BiomeKeys.FLOWER_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.DISK_ROOTED_DIRT);
 
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.FOREST, BiomeKeys.FLOWER_FOREST),
+                GenerationStep.Feature.TOP_LAYER_MODIFICATION, ModPlacedFeatures.WHITE_FLORAL_PLACED);
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.FLOWER_FOREST),
+                GenerationStep.Feature.TOP_LAYER_MODIFICATION, ModPlacedFeatures.PINK_FLORAL_PLACED);
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST, BiomeKeys.FOREST, BiomeKeys.FLOWER_FOREST),
+                GenerationStep.Feature.TOP_LAYER_MODIFICATION, ModPlacedFeatures.YELLOW_FLORAL_PLACED);
+
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.OLD_GROWTH_BIRCH_FOREST, BiomeKeys.BIRCH_FOREST),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.BIRCH_LOG_MOSS);
 

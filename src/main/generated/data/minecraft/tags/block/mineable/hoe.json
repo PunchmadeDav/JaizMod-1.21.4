@@ -1,6 +1,9 @@
 {
   "values": [
     "jaizmod:desert_oak_leaves",
+    "jaizmod:blooming_ivy_block",
+    "jaizmod:dead_leaves",
+    "jaizmod:dried_leaves",
     "jaizmod:mahogany_leaves"
   ]
 }

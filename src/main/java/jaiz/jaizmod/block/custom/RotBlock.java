@@ -59,7 +59,7 @@ public class RotBlock extends Block implements Fertilizable{
     public void grow(ServerWorld world, Random random, BlockPos pos, BlockState state) {
         BlockPos blockPos = pos.up();
         BlockState blockState = world.getBlockState(blockPos);
-        BlockState blockState2 = ModBlocks.ROTTEN_LOG.getDefaultState();
+        BlockState blockState2 = ModBlocks.ROTTEN_LOG.getDefaultState().with(ROTTING, 1);
         int i =random.nextInt(12);
 
         if (blockState.isIn(BlockTags.LOGS)) {

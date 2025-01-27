@@ -61,6 +61,12 @@ public class ModBlocks {
     public static final Block BLOOMING_IVY = registerBlock("blooming_ivy",
             BloomingIvyBlock::new,AbstractBlock.Settings.copy(Blocks.VINE).sounds(BlockSoundGroup.VINE).ticksRandomly());
 
+    public static final Block WHITE_FLORAL_VEIL = registerBlock("white_floral_veil",
+            GlowLichenBlock::new,AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).sounds(BlockSoundGroup.GRASS).breakInstantly().noCollision());
+    public static final Block PINK_FLORAL_VEIL = registerBlock("pink_floral_veil",
+            GlowLichenBlock::new,AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).sounds(BlockSoundGroup.GRASS).breakInstantly().noCollision());
+    public static final Block YELLOW_FLORAL_VEIL = registerBlock("yellow_floral_veil",
+            GlowLichenBlock::new,AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).sounds(BlockSoundGroup.GRASS).breakInstantly().noCollision());
 
     public static final Block BIOLUMINESCENT_BOTTLE = registerBlock("bioluminescent_bottle",
             BioluminescentBottleBlock::new,AbstractBlock.Settings.copy(Blocks.GLASS).sounds(BlockSoundGroup.GLASS).luminance(state -> 15));
@@ -253,8 +259,52 @@ public class ModBlocks {
     public static final Block SLIMEY_STONE = registerBlock("slimey_stone",
             SlimeDripBlock::new,AbstractBlock.Settings.copy(Blocks.STONE).sounds(BlockSoundGroup.STONE).ticksRandomly());
 
+    public static final Block DEAD_LEAVES = registerBlock(
+            "dead_leaves",
+            settings -> new ParticleLeavesBlock(50, JaizMod.DEAD_LEAF_PARTICLE, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.BROWN)
+                    .strength(0.2F)
+                    .ticksRandomly()
+                    .sounds(BlockSoundGroup.WET_GRASS)
+                    .nonOpaque()
+                    .allowsSpawning(Blocks::canSpawnOnLeaves)
+                    .suffocates(Blocks::never)
+                    .blockVision(Blocks::never)
+                    .burnable()
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .solidBlock(Blocks::never)
+    );
+
+
+    public static final Block DRIED_LEAVES = registerBlock(
+            "dried_leaves",
+            settings -> new DriedLeavesBlock(50, JaizMod.DRY_LEAF_PARTICLE, settings),
+            AbstractBlock.Settings.create()
+                    .mapColor(MapColor.ORANGE)
+                    .strength(0.2F)
+                    .ticksRandomly()
+                    .sounds(BlockSoundGroup.GRASS)
+                    .nonOpaque()
+                    .allowsSpawning(Blocks::canSpawnOnLeaves)
+                    .suffocates(Blocks::never)
+                    .blockVision(Blocks::never)
+                    .burnable()
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .solidBlock(Blocks::never)
+    );
+
+
+
+
+
+    public static final Block BLOOMING_IVY_BLOCK = registerBlock("blooming_ivy_block", LeavesBlock::new, createLeavesSettings(BlockSoundGroup.GRASS));
+
+
+
     public static final Block DESERT_OAK_LEAVES = registerBlock("desert_oak_leaves", LeavesBlock::new, createLeavesSettings(BlockSoundGroup.GRASS));
     public static final Block MAHOGANY_LEAVES = registerBlock("mahogany_leaves", LeavesBlock::new, createLeavesSettings(BlockSoundGroup.GRASS));
+
     public static AbstractBlock.Settings createLeavesSettings(BlockSoundGroup sounds) {
         return AbstractBlock.Settings.create()
                 .mapColor(MapColor.DARK_GREEN)

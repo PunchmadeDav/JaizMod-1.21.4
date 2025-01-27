@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "jaizmod:pink_floral_veil",
+    "can_be_placed_on": [
+      "minecraft:grass_block"
+    ],
+    "can_place_on_ceiling": true,
+    "can_place_on_floor": true,
+    "can_place_on_wall": true,
+    "chance_of_spreading": 0.5,
+    "search_range": 20
+  }
+}

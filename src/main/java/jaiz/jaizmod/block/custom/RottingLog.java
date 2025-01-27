@@ -12,6 +12,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.random.Random;
 
+import static net.minecraft.block.LeavesBlock.DISTANCE;
+import static net.minecraft.block.LeavesBlock.PERSISTENT;
+
 public class RottingLog extends PillarBlock {
 
     public static final IntProperty ROTTING = ModBlocks.ROTTING;
@@ -30,9 +33,13 @@ public class RottingLog extends PillarBlock {
         BlockPos blockPos = pos.up();
         BlockState blockState = world.getBlockState(blockPos);
         BlockState blockState2 = ModBlocks.ROTTEN_LOG.getDefaultState().with(ROTTING, 1);
+        BlockState blockState3 = ModBlocks.DRIED_LEAVES.getDefaultState().with(ROTTING, 1).with(DISTANCE, 3);
         if(state.get(ROTTING) == 1){
         if (blockState.isIn(BlockTags.LOGS)) {
             world.setBlockState(blockPos, blockState2);
+        }
+        if (blockState.isIn(BlockTags.LEAVES)) {
+            world.setBlockState(blockPos, blockState3);
         }
         }
 

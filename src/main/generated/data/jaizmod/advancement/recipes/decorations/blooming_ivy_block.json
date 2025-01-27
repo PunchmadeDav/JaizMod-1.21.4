@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blooming_ivy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "jaizmod:blooming_ivy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "jaizmod:blooming_ivy_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blooming_ivy"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "jaizmod:blooming_ivy_block"
+    ]
+  }
+}

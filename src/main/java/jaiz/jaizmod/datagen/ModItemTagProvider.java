@@ -127,7 +127,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.BATTERED_AXE)
                 .add(ModItems.OBSIDIAN_SWORD);
 
-
         getOrCreateTagBuilder(ItemTags.FENCES)
                 .add(ModItems.ROTTEN_FENCE)
                 .add(ModItems.DESERT_OAK_FENCE)
@@ -138,7 +137,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.STONE_BRICKS)
                 .add(ModItems.TERRACOTTA_BRICKS);
-
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModItems.MAHOGANY_LOG)
@@ -163,12 +161,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PETRIFIED_DIRT)
                 .add(ModItems.ROT_BLOCK);
 
-
         getOrCreateTagBuilder(ItemTags.FENCE_GATES)
                 .add(ModItems.DESERT_OAK_FENCE_GATE)
                 .add(ModItems.MAHOGANY_FENCE_GATE)
                 .add(ModItems.ROTTEN_FENCE_GATE);
-
 
         getOrCreateTagBuilder(ItemTags.WOODEN_SLABS)
                 .add(ModItems.DESERT_OAK_SLAB)
@@ -186,6 +182,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.CALLALILY_PURPLE)
                 .add(ModItems.CALLALILY_WHITE)
                 .add(ModItems.CALLALILY_PINK)
+                .add(ModItems.PINK_FLORAL_VEIL)
+                .add(ModItems.WHITE_FLORAL_VEIL)
+                .add(ModItems.YELLOW_FLORAL_VEIL)
                 .add(ModItems.COLUMBINE);
 
 
@@ -214,6 +213,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.LEAVES)
                 .add(ModItems.DESERT_OAK_LEAVES)
+                .add(ModItems.DEAD_LEAVES)
+                .add(ModItems.DRIED_LEAVES)
                 .add(ModItems.MAHOGANY_LEAVES);
 
         getOrCreateTagBuilder(ItemTags.SAPLINGS)
@@ -222,6 +223,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.SMALL_FLOWERS)
                 .add(ModItems.COLUMBINE)
+                .add(ModItems.PINK_FLORAL_VEIL)
+                .add(ModItems.WHITE_FLORAL_VEIL)
+                .add(ModItems.YELLOW_FLORAL_VEIL)
                 .add(ModItems.ANCIENT_SPROUT);
 
         getOrCreateTagBuilder(ItemTags.SNIFFER_FOOD)

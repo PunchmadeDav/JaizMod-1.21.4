@@ -134,6 +134,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ROT_ROOTS);
                         entries.add(ModItems.ROTTEN_BOAT);
                         entries.add(ModItems.ROTTEN_CHEST_BOAT);
+                        entries.add(ModItems.DRIED_LEAVES);
+                        entries.add(ModItems.DEAD_LEAVES);
                         entries.add(ModItems.SHELF_MUSHROOM_BLOCK);
                         entries.add(ModItems.COCOON_BLOCK);
                         entries.add(ModItems.COLUMBINE);
@@ -142,6 +144,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CALLALILY_PINK);
                         entries.add(ModItems.CALLALILY_PURPLE);
                         entries.add(ModItems.CALLALILY_YELLOW);
+                        entries.add(ModItems.WHITE_FLORAL_VEIL);
+                        entries.add(ModItems.PINK_FLORAL_VEIL);
+                        entries.add(ModItems.YELLOW_FLORAL_VEIL);
                         entries.add(ModItems.IVY);
                         entries.add(ModItems.UNDERGROWTH);
                         entries.add(ModItems.MAHOGANY_PLANKS);
@@ -196,8 +201,8 @@ public class ModItemGroups {
                         entries.add(ModItems.SNIFFER_MEAT);
                         entries.add(ModItems.COOKED_SNIFFER_MEAT);
                         entries.add(ModItems.ANCIENT_SPROUT);
+                        entries.add(ModItems.BLOOMING_IVY_BLOCK);
                         entries.add(ModItems.BLOOMING_IVY);
-
                     }).build());
 
     public static void registerItemGroups() {

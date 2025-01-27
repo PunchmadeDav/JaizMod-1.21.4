@@ -202,6 +202,14 @@ public class ModItems {
     public static BlockItem PLATED_CALCITE = registerBlockItem("plated_calcite", ModBlocks.PLATED_CALCITE);
     public static BlockItem CHISELED_PLATED_CALCITE = registerBlockItem("chiseled_plated_calcite", ModBlocks.CHISELED_PLATED_CALCITE);
 
+    public static BlockItem DEAD_LEAVES = registerBlockItem("dead_leaves", ModBlocks.DEAD_LEAVES);
+    public static BlockItem DRIED_LEAVES = registerBlockItem("dried_leaves", ModBlocks.DRIED_LEAVES);
+    public static BlockItem BLOOMING_IVY_BLOCK = registerBlockItem("blooming_ivy_block", ModBlocks.BLOOMING_IVY_BLOCK);
+
+    public static BlockItem WHITE_FLORAL_VEIL = registerBlockItem("white_floral_veil", ModBlocks.WHITE_FLORAL_VEIL);
+    public static BlockItem PINK_FLORAL_VEIL = registerBlockItem("pink_floral_veil", ModBlocks.PINK_FLORAL_VEIL);
+    public static BlockItem YELLOW_FLORAL_VEIL = registerBlockItem("yellow_floral_veil", ModBlocks.YELLOW_FLORAL_VEIL);
+
     public static BlockItem ANCIENT_SPROUT = registerBlockItem("ancient_sprout", ModBlocks.ANCIENT_SPROUT);
     public static final Item FANCY_WHITE_WOOL = registerBlockItem("fancy_white_wool",ModBlocks.FANCY_WHITE_WOOL);
     public static final Item FANCY_LIGHT_GRAY_WOOL = registerBlockItem("fancy_light_gray_wool", ModBlocks.FANCY_LIGHT_GRAY_WOOL);

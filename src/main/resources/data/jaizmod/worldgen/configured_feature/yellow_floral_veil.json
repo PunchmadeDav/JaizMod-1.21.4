@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "jaizmod:yellow_floral_veil",
+    "can_be_placed_on": [
+      "minecraft:birch_leaves",
+      "minecraft:birch_log"
+    ],
+    "can_place_on_ceiling": true,
+    "can_place_on_floor": true,
+    "can_place_on_wall": true,
+    "chance_of_spreading": 0.9,
+    "search_range": 20
+  }
+}

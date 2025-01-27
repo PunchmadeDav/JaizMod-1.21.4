@@ -44,6 +44,8 @@ public class JaizMod implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public static final SimpleParticleType STINK_PARTICLE = FabricParticleTypes.simple();
+	public static final SimpleParticleType DRY_LEAF_PARTICLE = FabricParticleTypes.simple();
+	public static final SimpleParticleType DEAD_LEAF_PARTICLE = FabricParticleTypes.simple();
 	public static final SimpleParticleType SLIME_DRIP_PARTICLE = FabricParticleTypes.simple();
 	public static final SimpleParticleType STINK_ITEM_PARTICLE = FabricParticleTypes.simple();
 	public static final SimpleParticleType AMETHYST_SPARKLE_PARTICLE = FabricParticleTypes.simple();
@@ -213,6 +215,12 @@ public class JaizMod implements ModInitializer {
 				.add(ModBlocks.ROTTEN_TRAPDOOR, 6, 10);
 		FlammableBlockRegistry.getDefaultInstance()
 				.add(ModBlocks.ROTTEN_DOOR, 6, 10);
+		FlammableBlockRegistry.getDefaultInstance()
+				.add(ModBlocks.BLOOMING_IVY, 6, 10);
+		FlammableBlockRegistry.getDefaultInstance()
+				.add(ModBlocks.DEAD_LEAVES, 6, 10);
+		FlammableBlockRegistry.getDefaultInstance()
+				.add(ModBlocks.DRIED_LEAVES, 6, 10);
 
 		StrippableBlockRegistry.register(ModBlocks.DESERT_OAK_LOG, ModBlocks.STRIPPED_DESERT_OAK_LOG);
 		StrippableBlockRegistry.register(ModBlocks.DESERT_OAK_WOOD, ModBlocks.STRIPPED_DESERT_OAK_WOOD);
@@ -229,7 +237,8 @@ public class JaizMod implements ModInitializer {
 		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(JaizMod.MOD_ID, "stink_item_particle"), STINK_ITEM_PARTICLE);
 		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(JaizMod.MOD_ID, "amethyst_sparkle_particle"), AMETHYST_SPARKLE_PARTICLE);
 		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(JaizMod.MOD_ID, "sprout_particle"), SPROUT_PARTICLE);
-
+		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(JaizMod.MOD_ID, "dry_leaf_particle"), DRY_LEAF_PARTICLE);
+		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(JaizMod.MOD_ID, "dead_leaf_particle"), DEAD_LEAF_PARTICLE);
 		Registry.register(Registries.PARTICLE_TYPE, Identifier.of(JaizMod.MOD_ID, "firefly_particle"), FIREFLY_PARTICLE);
 
 		FabricDefaultAttributeRegistry.register(ModEntities.CATERPILLAR, CaterpillarEntity.createAttributes());

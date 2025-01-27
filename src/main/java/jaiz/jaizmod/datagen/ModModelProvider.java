@@ -6,6 +6,7 @@ import jaiz.jaizmod.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.GlowLichenBlock;
 import net.minecraft.client.data.*;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -109,9 +110,17 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PETRIFIED_DIRT);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DRIED_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEAD_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLOOMING_IVY_BLOCK);
+
         blockStateModelGenerator.registerHangingSign(ModBlocks.HANGING_DESERT_OAK_SIGN, ModBlocks.HANGING_DESERT_OAK_SIGN, ModBlocks.WALL_HANGING_DESERT_OAK_SIGN);
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.SLIME_DRIP, BlockStateModelGenerator.CrossType.NOT_TINTED);
+
+        blockStateModelGenerator.registerMultifaceBlock(ModBlocks.YELLOW_FLORAL_VEIL);
+        blockStateModelGenerator.registerMultifaceBlock(ModBlocks.WHITE_FLORAL_VEIL);
+        blockStateModelGenerator.registerMultifaceBlock(ModBlocks.PINK_FLORAL_VEIL);
 
         blockStateModelGenerator.registerHangingSign(ModBlocks.HANGING_MAHOGANY_SIGN, ModBlocks.HANGING_MAHOGANY_SIGN, ModBlocks.WALL_HANGING_MAHOGANY_SIGN);
     }

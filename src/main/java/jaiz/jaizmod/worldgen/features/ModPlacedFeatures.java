@@ -21,6 +21,10 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> ROTTEN_LOG_PLACED = registerKey("rotten_log_placed");
 
+    public static final RegistryKey<PlacedFeature> WHITE_FLORAL_PLACED = registerKey("white_floral_veil");
+    public static final RegistryKey<PlacedFeature> PINK_FLORAL_PLACED = registerKey("pink_floral_veil");
+    public static final RegistryKey<PlacedFeature> YELLOW_FLORAL_PLACED = registerKey("yellow_floral_veil");
+
     public static final RegistryKey<PlacedFeature> ROT_RED_MUSHROOM_PLACED = registerKey("red_mushroom_rot_patch_placed");
     public static final RegistryKey<PlacedFeature> ROT_BROWN_MUSHROOM_PLACED = registerKey("brown_mushroom_rot_patch_placed");
 

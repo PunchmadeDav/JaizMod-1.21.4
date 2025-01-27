@@ -172,6 +172,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.DESERT_OAK_LEAVES)
+                .add(ModBlocks.BLOOMING_IVY_BLOCK)
+                .add(ModBlocks.DEAD_LEAVES)
+                .add(ModBlocks.DRIED_LEAVES)
                 .add(ModBlocks.MAHOGANY_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -232,10 +235,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
                 .add(ModBlocks.ANCIENT_SPROUT)
+                .add(ModBlocks.PINK_FLORAL_VEIL)
+                .add(ModBlocks.WHITE_FLORAL_VEIL)
+                .add(ModBlocks.YELLOW_FLORAL_VEIL)
                 .add(ModBlocks.COLUMBINE);
 
         getOrCreateTagBuilder(BlockTags.BEE_ATTRACTIVE)
                 .add(ModBlocks.CALLALILY_LILAC)
+                .add(ModBlocks.PINK_FLORAL_VEIL)
+                .add(ModBlocks.WHITE_FLORAL_VEIL)
+                .add(ModBlocks.YELLOW_FLORAL_VEIL)
                 .add(ModBlocks.CALLALILY_YELLOW)
                 .add(ModBlocks.CALLALILY_PURPLE)
                 .add(ModBlocks.CALLALILY_WHITE)
@@ -246,6 +255,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.REPLACEABLE)
                 .add(ModBlocks.COLUMBINE)
                 .add(ModBlocks.BLOOMING_IVY)
+                .add(ModBlocks.PINK_FLORAL_VEIL)
+                .add(ModBlocks.WHITE_FLORAL_VEIL)
+                .add(ModBlocks.YELLOW_FLORAL_VEIL)
                 .add(ModBlocks.CALLALILY_LILAC)
                 .add(ModBlocks.CALLALILY_YELLOW)
                 .add(ModBlocks.CALLALILY_PURPLE)
@@ -259,6 +271,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.REPLACEABLE_BY_TREES)
                 .add(ModBlocks.SHELF_MUSHROOM_BLOCK)
                 .add(ModBlocks.IVY)
+                .add(ModBlocks.PINK_FLORAL_VEIL)
+                .add(ModBlocks.WHITE_FLORAL_VEIL)
+                .add(ModBlocks.YELLOW_FLORAL_VEIL)
                 .add(ModBlocks.BLOOMING_IVY)
                 .add(ModBlocks.ROT_ROOTS)
                 .add(ModBlocks.UNDERGROWTH);

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "block": "jaizmod:white_floral_veil",
+    "can_be_placed_on": [
+      "minecraft:oak_log",
+      "minecraft:oak_leaves"
+    ],
+    "can_place_on_ceiling": true,
+    "can_place_on_floor": true,
+    "can_place_on_wall": true,
+    "chance_of_spreading": 0.9,
+    "search_range": 20
+  }
+}

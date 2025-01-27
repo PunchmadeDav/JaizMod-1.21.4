@@ -34,6 +34,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.particle.AshParticle;
 import net.minecraft.client.particle.EndRodParticle;
+import net.minecraft.client.particle.LeavesParticle;
 import net.minecraft.client.particle.RainSplashParticle;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
@@ -114,6 +115,13 @@ public class JaizModClient implements ClientModInitializer {
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ROT_BLOCK, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ROT_ROOTS, RenderLayer.getCutout());
 
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WHITE_FLORAL_VEIL, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINK_FLORAL_VEIL, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.YELLOW_FLORAL_VEIL, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLOOMING_IVY_BLOCK, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DRIED_LEAVES, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DEAD_LEAVES, RenderLayer.getCutout());
+
 		EntityRendererRegistry.register(ModEntities.MASON_MOUTH, MasonMouthRenderer::new);
 		EntityModelLayerRegistry.registerModelLayer(ModModelLayers.MASON_MOUTH, Masonmouth::getTexturedModelData);
 
@@ -126,6 +134,8 @@ public class JaizModClient implements ClientModInitializer {
 		ParticleFactoryRegistry.getInstance().register(JaizMod.AMETHYST_SPARKLE_PARTICLE, EndRodParticle.Factory::new);
 		ParticleFactoryRegistry.getInstance().register(JaizMod.FIREFLY_PARTICLE, FireFlyParticle.FireFlyParticleFactory::new);
 		ParticleFactoryRegistry.getInstance().register(JaizMod.SPROUT_PARTICLE, SproutParticle.SproutParticleFactory::new);
+		ParticleFactoryRegistry.getInstance().register(JaizMod.DRY_LEAF_PARTICLE, LeavesParticle.PaleOakLeavesFactory::new);
+		ParticleFactoryRegistry.getInstance().register(JaizMod.DEAD_LEAF_PARTICLE, LeavesParticle.PaleOakLeavesFactory::new);
 
 	}
 

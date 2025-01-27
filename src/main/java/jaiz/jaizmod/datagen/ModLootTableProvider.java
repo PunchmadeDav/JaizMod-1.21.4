@@ -53,6 +53,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.BIOLUMINESCENT_BOTTLE);
 
+        addDrop(ModBlocks.BLOOMING_IVY_BLOCK);
+
         addDrop(ModBlocks.GILDED_CHISELED_SANDSTONE);
         addDrop(ModBlocks.GILDED_CUT_SANDSTONE);
         addDrop(ModBlocks.GILDED_SANDSTONE);
@@ -106,9 +108,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WATER_TORCH, ModItems.WATER_TORCH);
         addDrop(ModBlocks.WALL_WATER_TORCH, ModItems.WATER_TORCH);
 
-
+        addDrop(ModBlocks.WHITE_FLORAL_VEIL, multifaceGrowthDrops(ModBlocks.WHITE_FLORAL_VEIL));
+        addDrop(ModBlocks.PINK_FLORAL_VEIL, multifaceGrowthDrops(ModBlocks.PINK_FLORAL_VEIL));
+        addDrop(ModBlocks.YELLOW_FLORAL_VEIL, multifaceGrowthDrops(ModBlocks.YELLOW_FLORAL_VEIL));
 
         addDrop(ModBlocks.MAHOGANY_LEAVES, leavesDrops(ModBlocks.MAHOGANY_LEAVES, ModBlocks.MAHOGANY_SAPLING, 0.1f));
+
+        addDrop(ModBlocks.DRIED_LEAVES, leavesDrops(ModBlocks.DRIED_LEAVES, Blocks.DEAD_BUSH, 0.1f));
+        addDrop(ModBlocks.DEAD_LEAVES, leavesDrops(ModBlocks.DEAD_LEAVES, Blocks.DEAD_BUSH, 0.1f));
 
         addDrop(ModBlocks.SNIFFER_WOOL);
         addDrop(ModBlocks.SNIFFER_CARPET);

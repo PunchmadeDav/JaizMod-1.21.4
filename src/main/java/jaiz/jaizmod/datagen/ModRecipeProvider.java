@@ -45,6 +45,13 @@ public class ModRecipeProvider extends RecipeGenerator {
                 .criterion(hasItem(ModItems.PLATED_CALCITE), conditionsFromItem(ModItems.PLATED_CALCITE))
                 .offerTo(exporter);
 
+        this.createShaped(RecipeCategory.DECORATIONS, ModItems.BLOOMING_IVY_BLOCK, 4)
+                .pattern("RR")
+                .pattern("RR")
+                .input('R', ModItems.BLOOMING_IVY)
+                .criterion(hasItem(ModItems.BLOOMING_IVY), conditionsFromItem(ModItems.BLOOMING_IVY))
+                .offerTo(exporter);
+
         this.createShaped(RecipeCategory.BUILDING_BLOCKS, ModItems.SNIFFER_WOOL, 1)
                 .pattern("RR")
                 .pattern("RR")
